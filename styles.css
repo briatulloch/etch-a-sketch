@@ -27,16 +27,6 @@ h1{
     margin-top: 4px;
 }
 
-.bonus{
-    font-family: Monaco;
-    background: rgb(45, 209, 214);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-
 .square{
     background-color: transparent;
     border: 1px solid black;

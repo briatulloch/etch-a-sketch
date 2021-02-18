@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* To import h1 font */
+
+html {
+    text-align:center;
+    background-image: url(images/webb-dark.png)
+}
+/* Background image from Total Subtle Patterns */
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    margin-bottom:5px;
+    color: yellow;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    text-align:center;
+}
+.clear{
+    
+    font-family: Monaco;
+    background: rgb(45, 209, 214);
+    color:white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.bonus{
+    font-family: Monaco;
+    background: rgb(45, 209, 214);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.square{
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.gridContainer{
+    background: url("images/lotus-flower.jpg");
+    margin-top: 10px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 550px;
+    width: 550px;
+}
+
+.gamepad {
+    background-color:red;
+    border-width:20px;
+    margin: 3px auto auto auto;
+    padding:5px;
+    width: 640px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 0px 7px rgba(138,40,40,1);    
+}
+
+#button{
+    position:absolute;
+    right: 320px;
+    /* to position the button to the right of the h1*/
+    background: white; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+}

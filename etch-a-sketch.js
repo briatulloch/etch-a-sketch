@@ -3,7 +3,7 @@ const userInput = document.getElementById("quantity");
 const clear = document.querySelector(".clear");
 
 
-createGrid = () => {
+const createGrid = () => {
     for(let i = 0; i < 256; i++) {
         const div = document.createElement("div");
         div.classList.add("square");
@@ -15,7 +15,7 @@ createGrid = () => {
     }
 };
 
-updateGrid = () => {
+const updateGrid = () => {
     grid.innerHTML="";
     grid.style.setProperty(
         "grid-template-columns",
